@@ -4,4 +4,4 @@
 
 ## TODO
 
-* [] coming soon
+* [ ] coming soon
