@@ -7,9 +7,11 @@ interface LayoutProps { };
 
 const Layout: FunctionComponent<LayoutProps> = () => {
     return (
-        <>
+        <div>
             <div className="row">
-                <Topbar />
+                <div className="col-12">
+                    <Topbar />
+                </div>
             </div>
             <div className="row">
                 <div className="col-2">
@@ -19,7 +21,7 @@ const Layout: FunctionComponent<LayoutProps> = () => {
                     <Routes />
                 </div>
             </div>
-        </>
+        </div>
     );
 }
 
