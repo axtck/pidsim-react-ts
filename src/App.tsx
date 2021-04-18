@@ -1,8 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { FunctionComponent } from "react";
 
-function App() {
+interface AppProps{};
+
+const App: FunctionComponent<AppProps> = () =>  {
   return (
     <div>
       
